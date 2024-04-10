@@ -1,0 +1,125 @@
+/* Main */
+. {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: white;
+    font-family: "Poppins";
+}
+
+section {
+    display: flex;
+    height: calc(100vh - 100px);
+    align-items: center;
+    justify-content: center;
+
+}
+
+section h2 {
+    font-size: 54px;
+}
+
+section p {
+    font-size: 20px;
+}
+
+a.button {
+    padding: 1px 6px;
+    border: 1px outset #3447a6;
+    border-radius: 3px;
+    color: white;
+    background-color: #566cdb;
+    text-decoration: none;
+    position: relative;
+    top: -10px;
+}
+
+/* Table */
+table {
+    border-collapse: collapse;
+    background: #d9d9d9;
+}
+
+caption,
+th,
+td {
+    padding: 1rem;
+}
+
+td {
+    text-align: center;
+}
+
+caption {
+    background: #d1cfcf;
+    font-size: 20px;
+}
+
+tr:nth-of-type(2n) {
+    background: #d1cfcf;
+}
+
+/* Top thing */
+header {
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    font-size: 20px;
+    display: flex;  
+    list-style-type: none;
+
+}
+
+header > div > a > p {
+    font-size: 35px;
+}
+
+header > div > a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul li a {
+    padding: 0 40px;
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Class */
+.link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.content-left {
+    width: 30%;
+}
+
+.content-right {
+    padding-left: 200px;
+    width: 30%;
+}
+
+/* Animations */
+.hover-font {
+    transition: font-size 0.3s;
+}
+
+.hover-font:hover {
+    font-size: 25px;
+}
+
+.hover-img {
+    box-shadow: 0px 0px black;
+    transition: box-shadow 0.5s;
+}
+
+.hover-img:hover {
+    box-shadow: 5px 5px black;
+}
